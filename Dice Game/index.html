@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dice">
+        <h2 class="dice-title">Let Us Play &#127922; Dice <i class="fas fa-flag red"></i></h2>
+        <div class="row">
+            <div class="col-6">
+                <h3>Player 1</h3>
+                <p id="scorecard">Score: <span id="score1">0</span></p>
+                <img src="img/Dice-1.png" alt="" class="img-dice">
+            </div>
+            <div class="col-6">
+                <h3>Player 2</h3>
+                <p id="scorecard">Score: <span id="score2">0</span></p>
+                <img src="img/Dice-1.png" alt="" class="img-dice">
+            </div>
+        </div>
+        <h1 class="head"></h1>
+        <button id="dice-btn" onclick="diceGame()">Roll Dice</button>
+        <button id="reset-btn" onclick="resetGame()">Reset Game</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
