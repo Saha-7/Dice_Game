@@ -25,4 +25,4 @@ Player who scored 30 points first will considered as winner
 After a player wins a game is set to disabled mode and reset button needs to be clicked to start the new game
 
 ![ScreenShot](https://github.com/Saha-7/Dice_Game/blob/main/Dice%20Game/img/Screenshot.png)
-![ScreenShot]()
+![ScreenShot](https://github.com/Saha-7/Dice_Game/blob/main/Dice%20Game/img/Screenshot1.png)
